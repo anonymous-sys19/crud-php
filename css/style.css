@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+}
+
+
+body{
+    color: rgb(16, 16, 16);
+    font-weight: 800;
+    background-color: rgb(224, 224, 224);
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.item{
+    flex: 1 1 150px;
+    padding: 1rem 4px 2px 2px;
+}
+
+/* Admin  */
+
+.admin{
+    color: rgb(250, 248, 234);
+    border: 1px double;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.admin:hover{
+    background-color: rgba(31, 31, 31, 0.4);
+    color: aquamarine;
+    text-decoration: none;
+}
+
+/* Form Search  */
+
+
+.formSearch label{
+    text-align: center;
+}
+.searchLabel{
+    color: azure;
+    text-align: center;
+}
+#ng{
+    color: rgb(255, 255, 255);
+    background-color: rgb(114, 114, 114);
+    border: whitesmoke 1px solid;
+    text-align: center;
+}
+#btn{
+    margin: auto;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+}
+form{
+    text-align: center;
+
+}
+
+.cont{
+    margin-top: 3rem;
+    
+    text-align: center;
+}
+err{
+    font-weight: 900;
+}
+.msgErr{
+    padding: 1rem 0;
+    position: relative;
+    left: 5rem;
+    top: -2rem;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.tit{
+    
+    color: rgb(24, 249, 114);
+    font-weight: bold;
+}
+.titP{
+    color: aliceblue;
+
+}
+/* table thead{
+	background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+	color:white;
+	} */
+
+
+div .dataTables_wrapper {
+        width: 94%;
+        margin: 0 auto;
+}
+
+.login_admin_message{
+    display: none;
+}
